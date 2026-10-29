@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NationalParks xmlns="http://tempuri.org/NationalParks.xsd"
+			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:schemaLocation="http://tempuri.org/NationalParks.xsd
+				https://raw.githubusercontent.com/ChaseGoldASU/CSE445Assignment4NationalParksXSD/refs/heads/main/NationalParks.xsd">
+
+	<NationalPark Rating="4.8">
+		<Name>Example Park</Name>
+		<Phone>123-456-7890</Phone>
+		<Address NearestAirport="FLG">
+			<Number>1</Number>
+			<Street>None</Street>
+			<City>Exists</City>
+			<State>AA</State>
+			<Zip>12345</Zip>
+		</Address>
+	</NationalPark>
+</NationalParks>
+			   

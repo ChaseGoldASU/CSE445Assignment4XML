@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NationalParks"
+    targetNamespace="http://tempuri.org/NationalParks.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/NationalParks.xsd"
+    xmlns:mstns="http://tempuri.org/NationalParks.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name ="NationalParks">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="NationalPark" type="NationalPark" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="NationalPark">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Phone" type="Phone" maxOccurs="unbounded" />
+			<xs:element name="Address" type="Address" />
+		</xs:sequence>
+		<xs:attribute name="Rating" type="xs:double" use="optional"/>
+	</xs:complexType>
+
+	<xs:simpleType name="Phone">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\d{3}-\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="Address">
+		<xs:sequence>
+			<xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1" />
+			<xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="Zip" type="Zip" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attribute name="NearestAirport" type="xs:string" use="required" />
+	</xs:complexType>
+	
+	<xs:simpleType name="Zip" >
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{5}" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
