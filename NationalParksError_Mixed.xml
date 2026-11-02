@@ -9,7 +9,7 @@
 		<Name>Mount Rushmore</Name>
 		<Phone>605-574-2523</Phone>
 		<Phone>605-574-3131</Phone>
-		<Address NearestAirport="RAP">
+		<Address>
 			<Number>13000</Number>
 			<Street>Highway 244 Building 31</Street>
 			<City>Keystone</City>
