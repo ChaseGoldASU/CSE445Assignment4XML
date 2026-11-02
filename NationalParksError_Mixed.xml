@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks xmlns="http://tempuri.org/NationalParks.xsd"
+<NationalPark xmlns="http://tempuri.org/NationalParks.xsd"
 			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			   xsi:schemaLocation="http://tempuri.org/NationalParks.xsd
 				https://raw.githubusercontent.com/ChaseGoldASU/CSE445Assignment4XML/refs/heads/main/NationalParks.xsd">
@@ -16,10 +16,8 @@
 		</Address>
 	</NationalPark>
 
-
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
-		<Phone></Phone>
 		<Address NearestAirport="GCN">
 			<Number>8</Number>
 			<Street>South Entrance Rd</Street>
@@ -38,6 +36,7 @@
 			<City>Yellowstone National Park</City>
 			<State>WY</State>
 			<Zip>82190</Zip>
+		</Address>
 	</NationalPark>
 
 	<NationalPark Rating="4.6">
