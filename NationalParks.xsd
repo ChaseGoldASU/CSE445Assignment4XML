@@ -25,7 +25,10 @@
 
 	<xs:simpleType name="Phone">
 		<xs:restriction base="xs:string">
+			<!--I found three main patterns and I am unsure what this assignment wants, so I am going to include them all-->
 			<xs:pattern value="\d{3}-\d{3}-\d{4}" />
+			<xs:pattern value="\d{3} \d{3}-\d{4}" />
+			<xs:pattern value="\(\d{3}\) ?\d{3}-\d{4}" />
 		</xs:restriction>
 	</xs:simpleType>
 

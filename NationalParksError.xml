@@ -4,26 +4,125 @@
 			   xsi:schemaLocation="http://tempuri.org/NationalParks.xsd
 				https://raw.githubusercontent.com/ChaseGoldASU/CSE445Assignment4XML/refs/heads/main/NationalParks.xsd">
 
-	<NationalPark Rating="4.8">
-		<Name>Example Park</Name>
-		<Phone>123-456-7890</Phone>
-		<Address>
-			<Number>1</Number>
-			<Street>None</Street>
-			<City>Exists</City>
-			<State>AA</State>
-			<Zip>12345</Zip>
-		</Address>
-	</NationalPark>
-
-	<NationalPark>
+	<NationalPark Rating="4.7">
 		<Name>Mount Rushmore</Name>
 		<Phone>605-574-2523</Phone>
-		<Address NearestAirport="RAP">
+		<Address>
+			<Number>13000</Number>
 			<Street>Highway 244 Building 31</Street>
 			<City>Keystone</City>
 			<State>SD</State>
 			<Zip>57751</Zip>
 		</Address>
 	</NationalPark>
+
+
+	<NationaPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone></Phone>
+		<Address NearestAirport="GCN">
+			<Number>8</Number>
+			<Street>South Entrance Rd</Street>
+			<City>Grand Canyon Village</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.8">
+		<Name>Yellowstone</Name>
+		<Phone>307-344-7381</Phone>
+		<Address NearestAirport="WYS">
+			<Number>2</Number>
+			<Street>Officers Row</Street>
+			<City>Yellowstone National Park</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+	</NationaPark>
+
+	<NationaPark Rating="4.6">
+		<Name>Yosemite</Name>
+		<Name>Yosemite Sam</Name>
+		<Phone>209-372-0200</Phone>
+		<Address NearestAirport="FAT">
+			<Number>9035</Number>
+			<Street>Village Dr</Street>
+			<City>Mariposa County</City>
+			<State>CA</State>
+			<Zip>95389</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.6">
+		<Name>Zion</Name>
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport="SGU">
+			<Number>1</Number>
+			<Street>Zion Park Blvd</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.6">
+		<Name>Rocky Mountain</Name>
+		<Phone>970-586-1206</Phone>
+		<Address NearestAirport="DEN">
+			<Number>1000</Number>
+			<Street>U.S. Highway 36</Street>
+			<City>Estes Park</City>
+			<State>CO</State>
+			<Zip>90517</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.8">
+		<Name>Acadia</Name>
+		<Phone>207-288-3338</Phone>
+		<Address NearestAirport="BHB">
+			<Number>25</Number>
+			<Street>Visitor Center Road</Street>
+			<City>Bar Harbor</City>
+			<State>ME</State>
+			<Zip>04609</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.7">
+		<Name>Glacier</Name>
+		<Phone>406-888-7800</Phone>
+		<Address NearestAirport="FCA">
+			<Number>64</Number>
+			<Street>Glacier National Park Headquarters</Street>
+			<City>West Glacier</City>
+			<State>MT</State>
+			<Zip>59936</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark Rating="4.8">
+		<Name>Great Smoky Mountains</Name>
+		<Phone>865-436-1200</Phone>
+		<Address NearestAirport="TYS">
+			<Number>107</Number>
+			<Street>Park Headquarters Road</Street>
+			<City>Gatlinburg</City>
+			<State>TN</State>
+			<Zip>37738</Zip>
+		</Address>
+	</NationaPark>
+
+	<NationaPark>
+		<Name>Saguaro</Name>
+		<Phone>520-733-5153</Phone>
+		<Address NearestAirport="TUS">
+			<Number>3693</Number>
+			<Street>S Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+		</Address>
+	</NationaPark>
 </NationalParks>
+
