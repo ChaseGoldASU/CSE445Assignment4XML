@@ -46,19 +46,6 @@
 		</Address>
 	</NationalPark>
 
-	<!--Line 49: Two names-->
-	<NationalPark Rating="4.6">
-		<Name>Yosemite</Name>
-		<Name>Yosemite Sam</Name>
-		<Phone>209-372-0200</Phone>
-		<Address NearestAirport="FAT">
-			<Number>9035</Number>
-			<Street>Village Dr</Street>
-			<City>El Portal</City>
-			<State>CA</State>
-			<Zip>95389</Zip>
-		</Address>
-	</NationalPark>
 	
 	<!--Line 63: All Errors-->
 	<NationalPark Rating="4.6">
