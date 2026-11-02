@@ -7,6 +7,7 @@
 	<NationalPark Rating="4.7">
 		<Name>Mount Rushmore</Name>
 		<Phone>605-574-2523</Phone>
+		<Phone>605-574-3131</Phone>
 		<Address NearestAirport="RAP">
 			<Number>13000</Number>
 			<Street>Highway 244 Building 31</Street>
@@ -32,6 +33,8 @@
 	<NationalPark Rating="4.8">
 		<Name>Yellowstone</Name>
 		<Phone>307-344-7381</Phone>
+		<Phone>307-344-2117</Phone>
+		<Phone>307-344-2751</Phone>
 		<Address NearestAirport="WYS">
 			<Number>2</Number>
 			<Street>Officers Row</Street>
@@ -68,6 +71,9 @@
 	<NationalPark Rating="4.6">
 		<Name>Rocky Mountain</Name>
 		<Phone>970-586-1206</Phone>
+		<Phone>970-586-1222</Phone>
+		<Phone>970-586-1319</Phone>
+		<Phone>970-586-1204</Phone>
 		<Address NearestAirport="DEN">
 			<Number>1000</Number>
 			<Street>U.S. Highway 36</Street>
@@ -80,6 +86,7 @@
 	<NationalPark Rating="4.8">
 		<Name>Acadia</Name>
 		<Phone>207-288-3338</Phone>
+		<Phone>207-288-8800</Phone>
 		<Address NearestAirport="BHB">
 			<Number>25</Number>
 			<Street>Visitor Center Road</Street>
@@ -92,6 +99,7 @@
 	<NationalPark Rating="4.7">
 		<Name>Glacier</Name>
 		<Phone>406-888-7800</Phone>
+		<Phone>406-888-7806</Phone>
 		<Address NearestAirport="FCA">
 			<Number>64</Number>
 			<Street>Glacier National Park Headquarters</Street>
@@ -116,6 +124,8 @@
 	<NationalPark>
 		<Name>Saguaro</Name>
 		<Phone>520-733-5153</Phone>
+		<Phone>520-733-5158</Phone>
+		<Phone>520-733-5100</Phone>
 		<Address NearestAirport="TUS">
 			<Number>3693</Number>
 			<Street>S Old Spanish Trail</Street>
