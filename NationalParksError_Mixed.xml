@@ -34,6 +34,7 @@
 	<!--Line 34: An address has no closing tag-->
 	<NationalPark Rating="4.8">
 		<Name>Yellowstone</Name>
+		<Name>Whitestone</Name>
 		<Phone>307-344-7381</Phone>
 		<Phone>307-344-2117</Phone>
 		<Phone>307-344-2751</Phone>
@@ -43,10 +44,11 @@
 			<City>Yellowstone National Park</City>
 			<State>WY</State>
 			<Zip>82190</Zip>
+		</Address>
 	</NationalPark>
 
-	<!--Line 49: Two names-->
-	<NationalPark Rating="4.6">
+	<!--Line 50: An address has no closing tag-->
+	<NationalPark>
 		<Name>Yosemite</Name>
 		<Name>Yosemite Sam</Name>
 		<Phone>209-372-0200</Phone>
@@ -56,7 +58,6 @@
 			<City>El Portal</City>
 			<State>CA</State>
 			<Zip>95389</Zip>
-		</Address>
 	</NationalPark>
 </NationalParks>
 

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NationalParks xmlns="http://tempuri.org/NationalParks.xsd"
+			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:schemaLocation="http://tempuri.org/NationalParks.xsd
+				https://raw.githubusercontent.com/ChaseGoldASU/CSE445Assignment4XML/refs/heads/main/NationalParks.xsd">
+	
+	<!--Line 7: Required attribute is missing-->
+	<NationalPark Rating="4.7">
+		<Name>Mount Rushmore</Name>
+		<Phone>605-574-2523</Phone>
+		<Phone>605-574-3131</Phone>
+		<Address>
+			<Number>13000</Number>
+			<Street>Highway 244 Building 31</Street>
+			<City>Keystone</City>
+			<State>SD</State>
+			<Zip>57751</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--Line 21: A phone element is missing-->
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone></Phone>
+		<Address NearestAirport="GCN">
+			<Number>8</Number>
+			<Street>South Entrance Rd</Street>
+			<City>Grand Canyon Village</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+	
+	<!--Line 34: An address has no closing tag-->
+	<NationalPark Rating="4.8">
+		<Name>Yellowstone</Name>
+		<Name>Whitestone</Name>
+		<Phone>307-344-7381</Phone>
+		<Phone>307-344-2117</Phone>
+		<Phone>307-344-2751</Phone>
+		<Address NearestAirport="WYS">
+			<Number>2</Number>
+			<Street>Officers Row</Street>
+			<City>Yellowstone National Park</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--Line 50: An address has no closing tag-->
+	<NationalPark>
+		<Name>Yosemite</Name>
+		<Name>Yosemite Sam</Name>
+		<Phone>209-372-0200</Phone>
+		<Address NearestAirport="FAT">
+			<Number>9035</Number>
+			<Street>Village Dr</Street>
+			<City>El Portal</City>
+			<State>CA</State>
+			<Zip>95389</Zip>
+	</NationalPark>
+</NationalParks>
+
